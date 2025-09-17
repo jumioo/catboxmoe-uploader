@@ -44,15 +44,3 @@ class FileUploadClient {
 }
 
 module.exports = FileUploadClient;
-
-/**
-# litterbox-catbox-uploader
-
-Ein einfacher Node.js-Client zum Hochladen von Dateien auf [litterbox.catbox.moe](https://litterbox.catbox.moe/), einen temporären Filehosting-Dienst.
-
-## Features
-- Dateien programmatisch zu Litterbox (Catbox' temporärer Upload-Service) hochladen
-- Ablaufzeit der Datei setzen (1h, 12h, 24h oder 72h)
-- Gibt bei Erfolg den direkten Download-Link zurück
-
-## Beispiel
